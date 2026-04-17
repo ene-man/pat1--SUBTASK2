@@ -11,7 +11,7 @@ int main() {
     cout << "Enter the second temperature reading: ";
     cin >> temp2;
 
-    // Check second reading conditions
+    // Check second reading
     int increase1 = temp2 - temp1;
 
     if (increase1 > 50) {
