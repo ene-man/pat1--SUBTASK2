@@ -24,7 +24,7 @@ int main() {
     cout << "Enter the third temperature reading: ";
     cin >> temp3;
 
-    // Final check after third reading
+    // final check
     if (temp3 >= 150 && temp3 <= 190) {
         cout << "You may start frying the Magwinyas." << endl;
     } else {
